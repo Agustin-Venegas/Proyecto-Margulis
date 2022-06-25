@@ -1,9 +1,51 @@
 Diseño e ideas:
 https://www.youtube.com/watch?v=39HTpUG1MwQ
+https://bio.libretexts.org/Bookshelves/Human_Biology/Book%3A_Human_Biology_(Wakim_and_Grewal)/05%3A_Cells/5.09%3A_Cellular_Respiration
 Utilizar ventanas con gráficos o desplegables, indicadores con numeros, pop-ups con información, etc
 Diseño bonito, geométrico constructivista, kurzgesagt.
 Dar la opción de meter venenos que impidan el funcionamiento de la cosa
 No quiero decir ni hacer esto, pero tenemos que copiarle al sodapop game
+
+Reacciones
+Glicolisis (citoplasma)
+Glucosa+2ATP+2NAD+ -> piruvato+4ATP+2NADH
+neto: 2pirutvato+2ATP+2NADH
+
+krebs cycle (dentro)
+2xpiruvato a Acetil CoA:
+piruvato + CoA -> NADH + Acetil CoA + CO2
+
+2xCitric Acid cycle:
+AcetilCoA -> 3NADH + FADH2 + ATP + 2 CO2 + CoA
+
+Neto (por glucosa): 2 ATP + 8 NADH + 2 FADH2 + 6 CO2
+
+Cadena de Transporte de Electrones (proteinas de membrana interna)
+Se mueven H+ hacia afuera y quedan algunos adentro (por ahora solo contar hacia afuera)
+I: NADH -> 10 H+
+II y III: FADH2 -> 6 H+
+IV: O + 2H+ -> H2O
+neto (por glucosa): 92 H+ + 2H2O
+
+Fosforilación oxidativa (proteinas de membrana interna)
+Se necesitan cuatro H+ por la ATP sintasa para recargar un ATP
+Neto (por glucosa): 4 H+ (hacia adentro) + ADP -> ATP
+Alcanza para 23 ATPs
+
+Total: (2+2+23+3) ATPs + 6 CO2 + 2H2O
+
+Notas importantes del total:
+Estos son estimados. Las vias de los NADH de la glicolisis pueden no bombear los mismos iones que los de la cadena.
+Entre 30-32 es un buen estimado. El maximo teorico es 36 (si todas las moleculas rindieran al maximo).
+Esta version genera 30
+
+Interacciones del usuario (posibles ideas)
+-Sistema Abierto: El usuario ve la pantalla y las animaciones. Se pueden cambiar algunas variables con sliders o botones
+-Minijuegos por Etapa: Cada etapa puede ser controlada como un minijuego (arrastrar las moleculas correctas, apagar o prender enzimas, tener puntaje, etc)
+
+Posibles Gamificaciones:
+Tiempo: mientras menos tiempo toma lograr la reaccion completa, mejor. Los usuarios pueden comparar tiempo.
+Cantidad de ATP: mientras mas, mejor. Los usuarios tratan de maximizar el uso de los recursos para generar más ATP, descubriendo trucos y particularidades del funcionamiento de la mitocondria
 
 Frases interesantes
 -El cuerpo humano sintetiza cerca de 74 kg de ATP al dia.
