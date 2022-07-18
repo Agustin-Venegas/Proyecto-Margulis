@@ -11,7 +11,8 @@ public class Molecule : ScriptableObject, IEquatable<Molecule>
     public string displayName;
     public string reactantName;
 
-    public Texture2D representation;
+    public Sprite representation;
+    [TextArea]
     public string info;
 
     bool IEquatable<Molecule>.Equals(Molecule other)

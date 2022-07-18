@@ -5,7 +5,7 @@ using UnityEngine;
 //clase para agarrar objetos. Guarda el actual como static
 public class Drag : MonoBehaviour
 {
-    bool isDragging = false;
+    public bool isDragging = false;
 
     public static Drag Actual;
 
@@ -15,13 +15,15 @@ public class Drag : MonoBehaviour
         
     }
 
-    public void OnMouseDown()
+    void OnMouseDown()
     {
         isDragging = true;
         Actual = this;
+
+        Debug.Log("Click registrado");
     }
 
-    public void OnMouseUp()
+    void OnMouseUp()
     {
         isDragging = false;
         Actual = null;

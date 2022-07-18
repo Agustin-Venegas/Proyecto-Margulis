@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 1071386225
+    locked: 0
+  - name: molecules
+    uniqueID: 3356996113
+    locked: 0
+  - name: arrows
+    uniqueID: 2319173363
+    locked: 0

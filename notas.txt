@@ -39,6 +39,14 @@ Estos son estimados. Las vias de los NADH de la glicolisis pueden no bombear los
 Entre 30-32 es un buen estimado. El maximo teorico es 36 (si todas las moleculas rindieran al maximo).
 Esta version genera 30
 
+
+LENGUAJE GRÁFICO
+<color=blue> procesos y subprocesos </color>
+<color=green> estructuras (proteinas, organelos) </color>
+<color=red> moleculas/reactantes </color>
+
+
+
 Interacciones del usuario (posibles ideas)
 -Sistema Abierto: El usuario ve la pantalla y las animaciones. Se pueden cambiar algunas variables con sliders o botones
 -Minijuegos por Etapa: Cada etapa puede ser controlada como un minijuego (arrastrar las moleculas correctas, apagar o prender enzimas, tener puntaje, etc)
